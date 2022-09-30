@@ -6,11 +6,11 @@ u = 5
 std = 1
 snd = stats.norm(u, std)
 
-x = np.linspace(-6, 6, 100)
+x = np.linspace(1, 10, 100)
 
 plt.figure(figsize=(8,8))
 plt.plot(x, snd.pdf(x))
-plt.xlim(0, 10)
+plt.xlim(1, 10)
 plt.title('Distributia Gaussiana', fontsize='15')
 plt.xlabel('Values of Random Variable X', fontsize='15')
 plt.ylabel('Probability', fontsize='15')
