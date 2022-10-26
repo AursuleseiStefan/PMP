@@ -8,7 +8,7 @@ def subpct2():
 def subpct3():
    
     t_mediu = math.log(1.6) / 7.5 * math.log(2.71828)
-    convertire_t_mediu = t_mediu * 60 / 1
+    convertire_t_mediu = t_mediu * 60 
     print("rezulatatul la exercitiul 3 este ")
     print("timpul mediu ", t_mediu, ", minute ", convertire_t_mediu)
 
